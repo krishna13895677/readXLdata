@@ -1,0 +1,503 @@
+UCS
+[clin, case_number, task_order_number, country_jurs_id, band_low, band_high, price, price_start_date, price_stop_date, mod_id, 
+[clin, case_number, task_order_number, band_low, band_high, price, price_start_date, price_stop_date, mod_id], 
+[clin, case_number, case_desc, task_order_number, unit_id, orig_network_site_code, term_network_site_code, orig_country_jurs_id, term_country_jurs_id, start_date, stop_date, kenan_charge_id, default_initial_ubi_state, tier_low, tier_high, rttp_group_id, primary_ubi, mod_id], 
+[clin, case_number, case_desc, task_order_number, unit_id, orig_network_site_code, term_network_site_code, orig_country_jurs_id, term_country_jurs_id, start_date, stop_date, kenan_charge_id, default_initial_ubi_state, mod_id], 
+[clin, case_number, task_order_number, region, network_site_code, offnet/onnet, country_jurs_id, component_access_phub, component_clin, component_case_number, component_sre_pricing_element, component_clin_qty, start_date, stop_date, Price, kenan_charge_id, rttp_allocation, mod_id], 
+[clin, case_number, task_order_number, region, network_site_code, offnet/onnet, country_jurs_id, component_access_phub, component_clin, component_case_number, component_sre_pricing_element, component_clin_qty, start_date, stop_date, Price, kenan_charge_id, mod_id], 
+[clin, case_number, task_order_number, price, price_start_date, price_stop_date, mod_id], 
+[clin, case_number, case_desc, task_order_number, unit_id, offnet or onnet, orig_network_site_code, term_network_site_code, orig_country_jurs_id, term_country_jurs_id, start_date, stop_date, kenan_charge_id, default_initial_ubi_state, mod_id], 
+[clin, case_number, task_order_number, country_jurs_id, band_low, band_high, price, price_start_date, price_stop_date, mod_id], 
+[clin, clin_case_number, autosold_clin, autosold_clin_case_number, task_order_number, start_date, stop_date, mod_id]]
+
+ETS
+[clin, case_number, task_order_number, orig_country_jurs_id, term_country_jurs_id, price, price_start_date, price_stop_date, mod_id, 
+[clin, case_number, task_order_number, country_jurs_id, price, price_start_date, price_stop_date, mod_id], 
+[clin, case_number, task_order_number, orig_country_jurs_id, term_country_jurs_id, price, price_start_date, price_stop_date, mod_id], 
+[clin, case_number, task_order_number, component_clin, component_clin_case_number, component_access_phub_id, component_sre_pricing_element, component_clin_quantity, price_start_date, price_stop_date, price, kenan_charge_id, mod_id], 
+[clin, case_number, case_desc, task_order_number, unit_id, orig_network_site_code, term_network_site_code, orig_country_jurs_id, term_country_jurs_id, start_date, stop_date, kenan_charge_id, default_initial_ubi_state, mod_id], 
+[clin, case_number, task_order_number, component_clin, component_case_number, component_access_phub, component_sre_pricing_element, component_clin_qty, start_date, stop_date, price, kenan_charge_id, mod_id], 
+[clin, case_number, task_order_number, country_jurs_id, price, price_start_date, price_stop_date], 
+[clin, case_number, task_order_number, component_clin, component_case_number, component_access_phub, component_sre_pricing_element, component_clin_qty, price, start_date, stop_date, kenan_charge_id, mod_id], 
+[clin, case_number, task_order_number, price, price_start_date, price_stop_date, mod_id], 
+[clin, case_number, task_order_number, component_clin, component_case_number, component_access_phub, component_sre_pricing_element, component_clin_qty, start_date, stop_date, Price, kenan_charge_id, mod_id], 
+[﻿clin, case_number, task_order_number, component_clin, component_case_number, component_access_phub, component_sre_pricing_element, component_clin_qty, start_date, stop_date, Price, kenan_charge_id, mod_id], 
+[clin, case_number, case_desc, task_order_number, unit_id, orig_network_site_code, term_network_site_code, orig_country_jurs_id, term_country_jurs_id, start_date, stop_date, kenan_charge_Id, default_initial_ubi_state, mod_id], 
+[clin, case_number, case_desc, task_order_number, unit_id, orig_network_site_code, term_network_site_code, orig_country_jurs_id, term_country_jurs_id, start_date, stop_date, kenan_charge_id, default_initial_ubi_state, tier_low, tier_high, rttp_group_id, primary_ubi, mod_id], 
+[clin, case_number, task_order_number, component_clin, component_case_number, component_access_phub, component_sre_pricing_element, component_clin_qty, start_date, stop_date, Price, kenan_charge_Id, mod_id], 
+[clin, case_number, case_desc, task_order_number, unit_id, offnet or onnet, orig_network_site_code, term_network_site_code, orig_country_jurs_id, term_country_jurs_id, start_date, stop_date, kenan_charge_id, default_initial_ubi_state, mod_id], 
+[clin, case_number, task_order_number, component_clin, component_case_number, component_access_phub, component_sre_pricing_element, component_clin_qty, start_date, stop_date, Price, kenan_charge_id, default_initial_ubi_state, mod_id], 
+[clin, case_number, case_desc, task_order_number, unit_id, orig_network_site_code, term_network_site_code, orig_country_jurs_id, term_country_jurs_id, start_date, stop_date, kenan_charge_id, default_Initial_ubi_state, mod_id], 
+[clin, case_number, task_order_number, region, network_site_code, country_jurs_id, component_access_phub, component_clin, component_case_number, component_sre_pricing_element, component_clin_qty, start_date, stop_date, Price, kenan_charge_id, mod_id], 
+[clin, case_number, task_order_number, region, network_site_code, country_jurs_id, component_access_phub, component_clin, component_case_number, component_sre_pricing_element, component_clin_qty, start_date, stop_date, Price, kenan_charge_id, rttp_allocation, mod_id], 
+[clin, case_number, case_desc, task_order_number, unit_id, orig_network_site_code, term_network_site_code, orig_country_jurs_id, term_country_jurs_id, start_date, stop_date, kenan_charge_id, default_initial_ubi_charge, mod_id], 
+[﻿clin, case_number, task_order_number, region, network_site_code, country_jurs_id, component_access_phub, component_clin, component_case_number, component_sre_pricing_element, component_clin_qty, start_date, stop_date, price, kenan_charge_id, mod_id], 
+[﻿clin, case_number, task_order_number, region, network_site_code, country_jurs_id, component_access_phub, component_clin, component_case_number, component_sre_pricing_element, component_clin_qty, start_date, stop_date, price, kenan_charge_id, rttp_allocation, mod_id], 
+[clin, case_number, task_order_number, component_clin, component_case_number, component_access_phub, component_sre_pricing_element, component_clin_qty, start_date, stop_date, Price], 
+[clin, case_number, task_order_number, orig_country_jurs_id, term_country_jurs_id, price, price_start_date, price_stop_date, mod_ids], 
+[﻿clin, case_number, task_order_number, orig_country_jurs_id, term_country_jurs_id, price, price_start_date, price_stop_date, mod_id], 
+[﻿clin, case_number, task_order_number, country_jurs_id, price, price_start_date, price_stop_date, mod_id], 
+[clin, case_number, task_order_number, component_clin, component_case_number, component_access_phub, component_sre_pricing_element, component_clin_qty, start_date, stop_date, Price, kenan_charge_id, mod_id, ], 
+[﻿clin, case_number, task_order_number, price, price_start_date, price_stop_date, mod_id], 
+[﻿clin, case_number, case_desc, task_order_number, unit_id, orig_network_site_code, term_network_site_code, orig_country_jurs_id, term_country_jurs_id, start_date, stop_date, kenan_charge_id, default_initial_ubi_state, mod_id], 
+[﻿clin, case_number, case_desc, Character Count, task_order_number, unit_id, orig_network_site_code, term_network_site_code, orig_country_jurs_id, term_country_jurs_id, start_date, stop_date, kenan_charge_id, default_initial_ubi_state, mod_id], 
+[clin, case_number, case_desc, task_order_number, unit_id, orig_network_site_code, term_network_site_code, orig_country_jurs_id, term_country_jurs_id, start_date, stop_date, kenan_charge_id, default_initial_ubi_state, mod_id, ], 
+[clin, case_number, task_order_number, component_clin, component_case_number, component_access_phub, component_sre_pricing_element, component_clin_qty, start_date, stop_date, Price,  kenan_charge_id, mod_id], 
+[clin, task_order_number, price, price_start_date, price_stop_date, mod_id], 
+[clin, case_number, sre_type, manufacturer, model_no, part_no, upc, model_part_desc, device_size, rated_for_eff, energy_std_ratings, olp, no_list_price, device_class_id, sre_mrc_options, start_date, stop_date, eos_date, eol_date, notes, mod_id]]
+
+IPVS
+[clin, clin_case_number, auto_sold_clin, auto_sold_clin_case_number, task_order_number, start_date, stop_date, mod_id, 
+[clin, clin_case_number, auto_sold_clin, auto_sold_clin_case_number, task_order_number, start_date, stop_date, mod_id], 
+[clin, case_number, task_order_number, price, price_start_date, price_stop_date, mod_id], 
+[clin, case_number, task_order_number, band_low, band_high, price, price_start_date, price_stop_date, mod_id], 
+[clin, case_number, case_desc, task_order_number, unit_id, orig_network_site_code, term_network_site_code, orig_country_jurs_id, term_country_jurs_id, start_date, stop_date, kenan_charge_id, default_initial_ubi_state, mod_id], 
+[clin, task_order_number, term_country_jurs_id, price, price_start_date, price_stop_date, mod_id], 
+[clin, case_number, case_desc, task_order_number, unit_id, orig_network_site_code, term_network_site_code, orig_country_jurs_id, term_country_jurs_id, start_date, stop_date, kenan_charge_id, default_initial_ubi_state, tier_low, tier_high, rttp_group_id, primary_ubi, mod_id], 
+[clin, case_number, task_order_number, region, network_site_code, country_jurs_id, component_access_phub, component_clin, component_case_number, component_sre_pricing_element, component_clin_qty, start_date, stop_date, price, kenan_charge_id, mod_id, ], 
+[clin, case_number, task_order_number, region, network_site_code, country_jurs_id, component_access_phub, component_clin, component_case_number, component_sre_pricing_element, component_clin_qty, start_date, stop_date, price, kenan_charge_id, rttp_allocation, mod_id, ], 
+[clin, case_number, task_order_number, region, network_site_code, country_jurs_id, component_access_phub, component_clin, component_case_number, component_sre_pricing_element, component_clin_qty, start_date, stop_date, price, kenan_charge_id, mod_id], 
+[clin, case_number, task_order_number, region, network_site_code, country_jurs_id, component_access_phub, component_clin, component_case_number, component_sre_pricing_element, component_clin_qty, start_date, stop_date, price, kenan_charge_id, rttp_allocation, mod_id], 
+[clin, clin_case_number, autosold_clin, autosold_clin_case_number, task_order_number, start_date, stop_date, mod_id], 
+[clin, case_number, task_order_number, region, network_site_code, offnet/onnet, country_jurs_id, component_access_phub, component_clin, component_case_number, component_sre_pricing_element, component_clin_qty, start_date, stop_date, Price, kenan_charge_id, rttp_allocation, mod_id], 
+[clin, case_number, task_order_number, region, network_site_code, offnet/onnet, country_jurs_id, component_access_phub, component_clin, component_case_number, component_sre_pricing_element, component_clin_qty, start_date, stop_date, Price, kenan_charge_mods, mod_id], 
+[clin, case_number, case_desc, task_order_number, unit_id, orig_network_site_code, term_network_site_code, orig_country_jurs_id, term_country_jurs_id, start_date, stop_date, kenan_charge_id, default_initial_ubi_state, mod_id, ], 
+[clin, case_number, task_order_number, region, network_site_code, country_jurs_id, component_access_phub, component_clin, component_case_number, component_sre_pricing_element, component_clin_qty, start_date, stop_date, Price, kenan_charge_id, rttp_allocation, mod_id], 
+[clin, case_number, task_order_number, region, network_site_code, country_jurs_id, component_access_phub, component_clin, component_case_number, component_sre_pricing_element, component_clin_qty, start_date, stop_date, Price, kenan_charge_id, mod_id], 
+[clin, task_order_number, orig_country_jurs_id, term_country_jurs_id, price, price_start_date, price_stop_date, mod_id], 
+[clin, case_number, task_order_number, region, network_site_code, country_jurs_id, component_access_phub, component_clin, component_case_number, component_sre_pricing_element, component_clin_qty, start_date, stop_date, Price, kenan_charge_id, rttp_allocation, mod_id, ], 
+[clin, case_number, task_order_number, region, network_site_code, country_jurs_id, component_access_phub, component_clin, component_case_number, component_sre_pricing_element, component_clin_qty, start_date, stop_date, Price, kenan_charge_id, mod_id, ], 
+[clin, task_order_number, orig_country_jurs_id, price, price_start_date, price_stop_date, mod_id], 
+[clin, case_number, task_order_number, orig_country_jurs_id, band_low, band_high, price, price_start_date, price_stop_date, mod_id], 
+[clin, case_number, task_order_number, orig_country_jurs_id, price, price_start_date, price_stop_date, mod_id], 
+[clin, case_number, task_order_number, component_clin, component_case_number, component_access_phub, component_sre_pricing_element, component_clin_qty, start_date, stop_date, Price, kenan_charge_id, mod_id], 
+[﻿clin, case_number, task_order_number, region, network_site_code, country_jurs_id, component_access_phub, component_clin, component_case_number, component_sre_pricing_element, component_clin_qty, start_date, stop_date, price, kenan_charge_id, mod_id], 
+[﻿clin, case_number, task_order_number, region, network_site_code, country_jurs_id, component_access_phub, component_clin, component_case_number, component_sre_pricing_element, component_clin_qty, start_date, stop_date, price, kenan_charge_id, rttp_allocation, mod_id], 
+[clin, case_number, task_order_number, region, network_site_code, country_jurs_id, component_clin, component_case_number, component_access_phub, component_sre_pricing_element, component_clin_qty, start_date, stop_date, price, kenan_charge_id, mod_id], 
+[clin, case_number, task_order_number, region, network_site_code, country_jurs_id, component_access_phub, component_clin, component_case_number, component_sre_pricing_element, component_clin_qty, start_date, stop_date, price,  kenan_charge_id, mod_id]]
+
+PaaS
+[clin, clin_case_number, autosold_clin, autosold_clin_case_number, task_order_number, start_date, stop_date, mod_id]
+
+WCS
+[clin, case_number, case_desc, task_order_number, unit_id, orig_network_site_code, term_network_site_code, orig_country_jurs_id, term_country_jurs_id, start_date, stop_date, kenan_charge_id, default_initial_ubi_state, mod_id, 
+[clin, case_number, task_order_number, price, price_start_date, price_stop_date, mod_id], 
+[clin, case_number, case_desc, task_order_number, unit_id, orig_network_site_code, term_network_site_code, orig_country_jurs_id, term_country_jurs_id, start_date, stop_date, kenan_charge_id, default_initial_ubi_state, mod_id], 
+[clin, task_order_number, band_low, band_high, price_variable, price_start_date, price_stop_date, mod_id], 
+[clin, case_number, case_desc, task_order_number, unit_id, offnet or onnet, orig_network_site_code, term_network_site_code, orig_country_jurs_id, term_country_jurs_id, start_date, stop_date, kenan_charge_id, default_initial_ubi_state, mod_id], 
+[clin, task_order_number, price, price_start_date, price_stop_date, mod_id], 
+[clin, clin_case_number, autosold_clin, autosold_clin_case_number, task_order_number, start_date, stop_date, mod_id], 
+[clin, task_order_number, band_low, band_high, price, price_start_date, price_stop_date, mod_id]]
+
+SRE
+[aow_id, aow_price_adj, price_start_date, price_stop_date, mod_id, aow_desc, 
+[device_class_id, device_class_desc, task_order_number, prct_disc_off_listprice, start_date, stop_date, mod_id], 
+[clin, case_number, case_desc, task_order_number, unit_id, orig_network_site_code, term_network_site_code, orig_country_jurs_id, term_country_jurs_id, start_date, stop_date, default_initial_ubi_state, mod_id], 
+[aow_id, aow_price_adj, price_start_date, price_stop_date, mod_id, aow_desc], 
+[clin, case_number, sre_type, manufacturer, model_no, part_no, upc, model_part_desc, device_size, rated_for_eff, energy_std_ratings, olp, no_list_price, device_class_id, sre_mrc_options, start_date, stop_date, eos_date, eol_date, notes, mod_id], 
+[clin, case_number, sre_pricing_element, task_order_number, aow_id, price, price_start_date, price_stop_date, mod_id], 
+[clin, case_number, case_desc, task_order_number, unit_id, orig_network_site_code, term_network_site_code, orig_country_jurs_id, term_country_jurs_id, start_date, stop_date, kenan_charge_id, default_initial_ubi_state, mod_id], 
+[aow_id, aow_price_adj, price_start_date, price_stop_date, mod_id, aow_desc, ], 
+[﻿clin, case_number, sre_pricing_element, task_order_number, aow_id, price, price_start_date, price_stop_date, mod_id], 
+[clin, case_number, price element, task_order_number, aow_id, price, price_start_date, price_stop_date, mod_id], 
+[aow_id, aow_price_adj, price_start_date, price_stop_date, mod_id], 
+[﻿clin, case_number, case_desc, task_order_number, unit_id, orig_network_site_code, term_network_site_code, orig_country_jurs_id, term_country_jurs_id, start_date, stop_date, kenan_charge_id, default_initial_ubi_state, mod_id], 
+[﻿clin, case_number, sre_type, manufacturer, model_no, part_no, upc, model_part_desc, device_size, rated_for_eff, energy_std_ratings, olp, no_list_price, device_class_id, sre_mrc_options, start_date, stop_date, eos_date, eol_date, notes, mod_id], 
+[﻿clin, case_number, case_desc, task_order_number, unit_id, orig_network_site_code, term_network_site_code, orig_country_jurs_id, term_country_jurs_id, start_date, stop_date, kenan_charge_id, defaukt_initial_ubi_state, mod_id], 
+[﻿clin, case_number, case_desc, task_order_number, unit_id, orig_network_site_code, term_network_site_code, orig_country_jurs_id, term_country_jurs_id, start_date, stop_date, kenan_charge_id, mod_id], 
+[clin, case_number, case_desc, task_order_number, unit_id, offnet or onnet, orig_network_site_code, term_network_site_code, orig_country_jurs_id, term_country_jurs_id, start_date, stop_date, kenan_charge_id, default_initial_ubi_state, mod_id], 
+[﻿clin, case_number, case_desc, task_order_number, unit_id, orig_network_site_code, term_network_site_code, orig_country_jurs_id, term_country_jurs_id, start_date, stop_date, kenan_charge_Id, default_initial_ubi_state, mod_id], 
+[﻿clin, case_number, sre_type, manufacturer, model_no, part_no, upc, model_part_desc, device_size, rated_for_eff, energy_std_ratings, olp, no_list_price, device_class_id, sre_mrc_options, start_date, stop_date, eos_date, eol_date, notes, mod_Id], 
+[clin, case_number, task_order_number, component_clin, component_case_number, component_access_phub, component_sre_pricing_element, component_clin_qty, start_date, stop_date, Price, kenan_charge_id, mod_id], 
+[clin, case_number, sre_pricing_element, task_order_number, aow_id, price, price_start_date, price_stop_date, mod_Id], 
+[clin, case_number, sre_pricing_element, task_order_number, aow_id, price, start_date, stop_date, mod_id], 
+[clin, case_number, sre_type, manufacturer, model_no, part_no, upc, model_part_desc, device_size, rated_for_eff, energy_std_ratings, olp, no_list_price, device_class_id, sre_mrc_options, price_start_date, price_stop_date, eos_date, eol_date, notes, mod_id], 
+[clin, case_number, sre_pricing_element, task_order_number, aow_id, price, price_start_date, price_ stop_date, mod_id], 
+[clin, case_number, sre_pricing_element, task_order_number, aow_id, price, price_start_date, price_stop_date], 
+[clin, case_number, sre_type, manufacturer, model_no, part_no, upc, model_part_desc, device_size, rated_for_eff, energy_std_ratings, olp, no_list_price, device_class_id, sre_mrc_options, start_date, stop_date, eos_date, eol_date, notes], 
+[clin, case_number, task_order_number, phub, price, price_start_date, price_stop_date, mod_id], 
+[bldg_network_site_code, phub, access_type, last_modified_date, mod_id]]
+
+Access
+[clin, case_number, task_order_number, phub, price, price_start_date, price_stop_date, mod_id, 
+[clin, case_number, task_order_number, country_jurs_id, price, price_start_date, price_stop_date, mod_id], 
+[clin, case_number, task_order_number, network_site_code, country_jurs_id, price, price_start_date, price_stop_date, mod_id], 
+[bldg_network_site_code, phub, access_type, last_modified_date, mod_id], 
+[clin, case_number, task_order_number, phub, price, price_start_date, price_stop_date, mod_id], 
+[clin, clin_case_number, autosold_clin, autosold_clin_case_number, task_order_number, start_date, stop_date, mod_id], 
+[clin, case_number, task_order_number, network_site_code, primary_pcl, alternate_pcl, alternate_pop, price, price_start_date, price_stop_date, mod_id], 
+[clin, case_number, task_order_number, price, price_start_date, price_stop_date, mod_id], 
+[clin, case_number, case_desc, task_order_number, unit_id, orig_network_site_code, term_network_site_code, orig_country_jurs_id, term_country_jurs_id, start_date, stop_date, kenan_charge_id, default_initial_ubi_state, mod_id], 
+[PK     ! ���֔     �[Content_Types].xml ��(�                                                                                                                                                                                                                                                                                                                                                                                                                                                                           ̕MK�@���!�U�m��HS~����5;m��;���{7[�Rb����, If����,���P9[�^�e��Ie'{|�霱IX)��P�% ��0��V�sα��̝ߌ]0��m�p/ʩ� �w���t��R�j], 
+[clin, case_number, task_order_number, network_site_code, price, price_start_date, price_stop_date, mod_id], 
+[bldg_network_site_code, orig_phub, access_type, last_modified_date, mod_id], 
+[clin, case_number, task_order_number, region, network_site_code, country_jurs_id, component_access_phub, component_clin, component_case_number, component_sre_pricing_element, component_clin_qty, start_date, stop_date, price, kenan_charge_id, mod_id], 
+[clin, case_number, case_desc, task_order_number, unit_id, orig_network_site_code, term_network_site_code, orig_country_jurs_id, term_country_jurs_id, start_date, stop_date, kenan_charge_id, default_initial_ubi_state, mod_id, ], 
+[clin, case_number, case_desc, task_order_number, unit_id, orig_network_site_code, term_network_site_code, orig_country_jurs_id, term_country_jurs_id, start_date, stop_date, kenan_charge_id, default_initial_ubi_state, tier_low, tier_high, rttp_group_id, primary_ubi, mod_id], 
+[PK     ! l��  %   �[Content_Types].xml ��(�                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       ĕ�n�0E����E灢(, g�6�4@]�[�[��g���r� q�ЍI佇3���zkM� �w;/�� '��nU�����gV 	���*�d����. i�Ê�D��(k�K��?K���W<�+���'.�#p4�F��g_a)6��o���%�`�7��ƫb"���D��z�2�;�ie����1a0~С��w����)4Q+(�E�;a�����o���q��~�����"Pb� � dM���], 
+[clin, case_number, task_order_number, region, network_site_code, country_jurs_id, component_access_phub, component_clin, component_case_number, component_sre_pricing_element, component_clin_qty, start_date, stop_date, price, kenan_charge_id, mod_id, ], 
+[clin, case_number, task_order_number, region, network_site_code, offnet/onnet, country_jurs_id, component_access_phub, component_clin, component_case_number, component_sre_pricing_element, component_clin_qty, start_date, stop_date, Price, kenan_charge_mods, mod_id], 
+[clin, case_number, task_order_number, region, network_site_code, country_jurs_id, component_access_phub, component_clin, component_case_number, component_sre_pricing_element, component_clin_qty, start_date, stop_date, Price, kenan_charge_Id, mod_id], 
+[clin, case_number, task_order_number, region, network_site_code, country_jurs_id, component_access_phub, component_clin, component_case_number, component_sre_pricing_element, component_clin_qty, start_date, stop_date, Price, kenan_charge_id, mod_id], 
+[clin, case_number, case_desc, task_order_number, unit_id, offnet or onnet, orig_network_site_code, term_network_site_code, orig_country_jurs_id, term_country_jurs_id, start_date, stop_date, kenan_charge_id, default_initial_ubi_state, mod_id], 
+[clin, case_number, task_order_number, component_clin, component_case_number, component_access_phub, component_sre_pricing_element, component_clin_qty, start_date, stop_date, Price, kenan_charge_id, mod_id], 
+[clin, case_number, task_order_number, network_site_code, price, price_start_date, price_stop_date, Mod_id], 
+[PK     ! ���̕  ], 
+[clin, case_number, task_order_number, region, network_site_code, country_jurs_id, component_access_phub, component_clin, component_case_number, component_sre_pricing_element, component_clin_qty, Price, start_date, stop_date, kenan_charge_id, mod_id], 
+[﻿clin, case_number, task_order_number, phub, price, price_start_date, price_stop_date, mod_id], 
+[﻿bldg_network_site_code, phub, access_type, last_modified_date, mod_id], 
+[clin, case_number, task_order_number, region, network_site_code, country_jurs_id, component_access_phub, component_clin, component_case_number, component_sre_pricing_element, component_clin_qty, start_date, stop_date, Price, kenan_charge_id, mod_id, ], 
+[clin, case_number, task_order_number, region, network_site_code, country_jurs_id, component_access_phub, component_clin, component_case_number, component_sre_pricing_element, component_clin_qty, start_date, stop_date, Price, kenan_charge_id, rttp_allocation, mod_id], 
+[clin, case_number, task_order_number, region, network_site_code, country_jurs_id, component_access_phub, component_clin, component_case_number, component_sre_pricing_element, component_clin_qty, start_date, stop_date, kenan_charge_id, mod_id], 
+[clin, case_number, task_order_number, network_site_code, pcl, price, price_start_date, price_stop_date, mod_id], 
+[clin, case_number, task_order_number, network_site_code, primary_pcl, alternate_pcl, alternate_pop, price, price_start_date, price_stop_date, mod_Id], 
+[clin, case_number, case_desc, task_order_number, unit_id, orig_network_site_code, term_network_site_code, orig_country_jurs_id, term_country_jurs_id, start_date, stop_date, kenan_charge_id, default_Initial_ubi_state, mod_id], 
+[﻿clin, case_number, task_order_number, region, network_site_code, country_jurs_id, component_access_phub, component_clin, component_case_number, component_sre_pricing_element, component_clin_qty, start_date, stop_date, Price, kenan_charge_id, mod_id], 
+[﻿clin, case_number, task_order_number, phub, price, price_start_date, price_stop_date, mod_Id], 
+[clin, case_number, task_order_number, network_site_code, primary_pcl, alternate_pcl, alternate_pop, price, price_start_date, price_stop_date, mod_id ], 
+[clin, case_number, task_order_number, country_jurs_id, price, price_start_date, price_stop_date, mod_Id], 
+[﻿clin, case_number, task_order_number, network_site_code, primary_pcl, alternate_pcl, alternate_pop, price, price_start_date, price_stop_date, mod_id], 
+[﻿clin, case_number, task_order_number, network_site_code, price, price_start_date, price_stop_date, mod_id], 
+[﻿clin, case_number, task_order_number, country_jurs_id, price, price_start_date, price_stop_date, mod_id], 
+[﻿clin, case_number, case_desc, task_order_number, unit_id, orig_network_site_code, term_network_site_code, orig_country_jurs_id, term_country_jurs_id, start_date, stop_date, kenan_charge_id, default_initial_ubi_state, mod_id], 
+[clin, case_number, category, service_desc, olp, no_list_price, service_class_id, start_date, stop_date, eos_date, eol_date, notes, mod_id], 
+[clin, case_number, task_order_number, region, network_site_code, country_jurs_id, component_clin, component_case_number, component_access_phub, component_sre_pricing_element, component_clin_qty, start_date, stop_date, price, kenan_charge_id, mod_id], 
+[﻿clin, case_number, task_order_number, region, network_site_code, country_jurs_id, component_access_phub, component_clin, component_case_number, component_sre_pricing_element, component_clin_qty, start_date, stop_date, price, kenan_charge_id, mod_id], 
+[PK     ! ��1ŏ  �   �[Content_Types].xml ��(�                                                                                                                                                                                                                                                                                                                                                                                                                                                                                ��MO�@��&��f��.`b��p��$b�u�t�~eg@��n�� �/ݴ�y�g�3io�0:�C@�l�:y�e`K'���e�кf��Rhg�`K@6蟟�FK��l����], 
+[clin, case_number, task_order_number, phub, price, price_start_date, price_stop_date, mod_Id], 
+[﻿bldg_network_site_code, phub, access_type, last_modified_date, mod_Id], 
+[clin, case_number, task_order_number, network_site_code, primary_pcl, alternate_pcl, alternate_pop, price, price_start_date, price_stop_date], 
+[﻿clin, case_number, task_order_number, network_site_code, country_jurs_id, price, price_start_date, price_stop_date, mod_id], 
+[clin, case_number, task_order_number, Phub, price, price_start_date, price_stop_date, mod_id]]
+
+SRL
+[clin, case_number, task_order_number, country_jurs_id, hrly_rate, price_start_date, price_stop_date, mod_id, 
+[clin, case_number, task_order_number, country_jurs_id, hrly_rate, price_start_date, price_stop_date, mod_id], 
+[clin, case_number, case_desc, task_order_number, unit_id, orig_network_site_code, term_network_site_code, orig_country_jurs_id, term_country_jurs_id, start_date, stop_date, kenan_charge_id, default_initial_ubi_state, mod_id], 
+[clin, case_number, task_order_number, price, price_start_date, price_stop_date, mod_id], 
+[PK     ! ���̕  ]]
+
+IPS
+[clin, case_number, task_order_number, country_jurs_id, price, price_start_date, price_stop_date, mod_id, 
+[clin, case_number, task_order_number, country_jurs_id, price, price_start_date, price_stop_date, mod_id], 
+[clin, case_number, case_desc, task_order_number, unit_id, orig_network_site_code, term_network_site_code, orig_country_jurs_id, term_country_jurs_id, start_date, stop_date, kenan_charge_id, default_initial_ubi_state, mod_id], 
+[clin, case_number, task_order_number, price, price_start_date, price_stop_date, mod_id], 
+[clin, case_number, task_order_number, region, network_site_code, country_jurs_id, component_access_phub, component_clin, component_case_number, component_sre_pricing_element, component_clin_qty, start_date, stop_date, price, kenan_charge_id, mod_id], 
+[clin, case_number, case_desc, task_order_number, unit_id, orig_network_site_code, term_network_site_code, orig_country_jurs_id, term_country_jurs_id, start_date, stop_date, kenan_charge_id, default_initial_ubi_state, tier_low, tier_high, rttp_group_id, primary_ubi, mod_id], 
+[clin, case_number, task_order_number, region, network_site_code, country_jurs_id, component_access_phub, component_clin, component_case_number, component_sre_pricing_element, component_clin_qty, start_date, stop_date, price, kenan_charge_id, rttp_allocation, mod_id], 
+[clin, case_number, task_order_number, region, network_site_code, country_jurs_id, component_access_phub, component_clin, component_case_number, component_sre_pricing_element, component_clin_qty, start_date, stop_date, price, kenan_charge_id, mod_id, ], 
+[clin, case_number, task_order_number, region, network_site_code, country_jurs_id, component_access_phub, component_clin, component_case_number, component_sre_pricing_element, component_clin_qty, start_date, stop_date, price, kenan_charge_id, rttp_allocation, mod_id, ], 
+[clin, case_number, task_order_number, component_clin, component_case_number, component_access_phub, component_sre_pricing_element, component_clin_qty, start_date, stop_date, price, kenan_charge_id, mod_id], 
+[clin, case_number, task_order_number, component_clin, component_case_number, component_access_phub, component_sre_pricing_element, component_clin_qty, start_date, stop_date, Price, kenan_charge_id, mod_id], 
+[clin, case_number, task_order_number, component_clin, component_case_number, component_access_phub, component_sre_pricing_element, component_clin_qty, start_date, stop_date, Price, kenan_charge_id, default_initial_ubi_state, mod_id], 
+[clin, case_number, case_desc, task_order_number, unit_id, offnet or onnet, orig_network_site_code, term_network_site_code, orig_country_jurs_id, term_country_jurs_id, start_date, stop_date, kenan_charge_id, default_initial_ubi_state, mod_id], 
+[clin, case_number, case_desc, task_order_number, unit_id, orig_network_site_code, term_network_site_code, orig_country_jurs_id, term_country_jurs_id, start_date, stop_date, kenan_charge_id, default_initial_ubi_state, mod_id, ], 
+[clin, case_number, task_order_number, region, network_site_code, country_jurs_id, component_access_phub, component_clin, component_case_number, component_sre_pricing_element, component_clin_qty, start_date, stop_date, Price], 
+[clin, case_number, task_order_number, region, network_site_code, country_jurs_id, component_access_phub, component_clin, component_case_number, component_sre_pricing_element, component_clin_qty, start_date, stop_date, Price, kenan_charge_id, mod_id], 
+[clin, case_number, task_order_number, region, network_site_code, country_jurs_id, component_access_phub, component_clin, component_case_number, component_sre_pricing_element, component_clin_qty, start_date, stop_date, Price, kenan_charge_id, rttp_allocation, mod_id], 
+[clin, case_number, task_order_number, region, network_site_code, country_jurs_id, component_access_phub, component_clin, component_case_number, component_sre_pricing_element, component_clin_qty, Price, start_date, stop_date, kenan_charge_id, mod_id, ], 
+[clin, case_number, task_order_number, region, network_site_code, country_jurs_id, component_access_phub, component_clin, component_case_number, component_sre_pricing_element, component_clin_qty, Price, start_date, stop_date, kenan_charge_id, rttp_allocation, mod_id], 
+[clin, case_number, task_order_number, region, network_site_code, country_jurs_id, component_access_phub, component_clin, component_case_number, component_sre_pricing_element, component_clin_qty, Price, start_date, stop_date, kenan_charge_id, rttp_allocation, mod_id, ], 
+[clin, case_number, task_order_number, region, network_site_code, country_jurs_id, component_access_phub, component_clin, component_case_number, component_sre_pricing_element, component_clin_qty, Price, start_date, stop_date, kenan_charge_id, mod_id], 
+[clin, case_number, task_order_number, region, network_site_code, country_jurs_id, component_access_phub, component_clin, component_case_number, component_sre_pricing_element, component_clin_qty, start_date, stop_date, Price, kenan_charge_id, rttp_allocation, mod_id, ], 
+[clin, case_number, task_order_number, region, network_site_code, country_jurs_id, component_access_phub, component_clin, component_case_number, component_sre_pricing_element, component_clin_qty, start_date, stop_date, Price, kenan_charge_id, mod_id, ], 
+[clin, case_number, task_order_number, component_clin, component_case_number, component_access_phub, component_sre_pricing_element, component_clin_qty, start_date, stop_date, Price, kenan_charge_Id, mod_id], 
+[clin, case_number, task_order_number, country_jurs_id, price, price_start_date, price_stop_date, , mod_id], 
+[﻿clin, case_number, task_order_number, region, network_site_code, country_jurs_id, component_access_phub, component_clin, component_case_number, component_sre_pricing_element, component_clin_qty, start_date, stop_date, price, kenan_charge_id, mod_id], 
+[﻿clin, case_number, task_order_number, region, network_site_code, country_jurs_id, component_access_phub, component_clin, component_case_number, component_sre_pricing_element, component_clin_qty, start_date, stop_date, price, kenan_charge_id, rttp_allocation, mod_id], 
+[clin, case_number, task_order_number, price, price_start_date, price_stop_date, mod_Id], 
+[clin, case_number, task_order_number, region, network_site_code, country_jurs_id, component_access_phub, component_clin, component_case_number, component_sre_pricing_element, component_clin_qty, start_date, stop_date, price,  kenan_charge_id, mod_id]]
+
+SONETS
+[clin, case_number, case_desc, task_order_number, unit_id, orig_network_site_code, term_network_site_code, orig_country_jurs_id, term_country_jurs_id, start_date, stop_date, kenan_charge_id, default_initial_ubi_state, mod_id, 
+[clin, case_number, task_order_number, price, price_start_date, price_stop_date, mod_id]]
+
+CHS
+[clin, clin_case_number, auto_sold_clin, auto_sold_clin_case_number, task_order_number, start_date, stop_date, mod_id, 
+[clin, case_number, task_order_number, price, price_start_date, price_stop_date, mod_id], 
+[clin, case_number, case_desc, task_order_number, unit_id, orig_network_site_code, term_network_site_code, orig_country_jurs_id, term_country_jurs_id, start_date, stop_date, kenan_charge_id, default_initial_ubi_state, mod_id], 
+[clin, case_number, case_desc, task_order_number, unit_id, orig_network_site_code, term_network_site_code, orig_country_jurs_id, term_country_jurs_id, start_date, stop_date, kenan_charge_id, default_initial_ubi_state, mod_id, ]]
+
+DFS
+[clin, case_number, task_order_number, price, price_start_date, price_stop_date, mod_id, 
+[clin, case_number, task_order_number, price, price_start_date, price_stop_date, mod_id], 
+[clin, case_number, case_desc, task_order_number, unit_id, orig_network_site_code, term_network_site_code, orig_country_jurs_id, term_country_jurs_id, start_date, stop_date, kenan_charge_id, default_initial_ubi_state, mod_id]]
+
+MNS
+[clin, case_number, task_order_number, price, price_start_date, price_stop_date, mod_id, 
+[clin, case_number, task_order_number, country_jurs_id, price, price_start_date, price_stop_date, mod_id], 
+[clin, clin_case_number, auto_sold_clin, auto_sold_clin_case_number, task_order_number, start_date, stop_date, mod_id], 
+[clin, case_number, task_order_number, price, price_start_date, price_stop_date, mod_id], 
+[clin, case_number, case_desc, task_order_number, unit_id, orig_network_site_code, term_network_site_code, orig_country_jurs_id, term_country_jurs_id, start_date, stop_date, kenan_charge_id, default_initial_ubi_state, mod_id], 
+[clin, case_number, case_desc, task_order_number, unit_id, orig_network_site_code, term_network_site_code, orig_country_jurs_id, term_country_jurs_id, start_date, stop_date, kenan_charge_id, default_initial_ubi_state, mod_id, ], 
+[clin, case_number, case_desc, task_order_number, unit_id, orig_network_site_code, term_network_site_code, orig_country_jurs_id, term_country_jurs_id, start_date, stop_date, kenan_charge_id, default_initial_ubi_state, tier_low, tier_high, rttp_group_id, primary_ubi, mod_id], 
+[clin, case_number, task_order_number, region, network_site_code, country_jurs_id, component_access_phub, component_clin, component_case_number, component_sre_pricing_element, component_clin_qty, start_date, stop_date, price, kenan_charge_id, mod_id], 
+[clin, case_number, task_order_number, region, network_site_code, country_jurs_id, component_access_phub, component_clin, component_case_number, component_sre_pricing_element, component_clin_qty, start_date, stop_date, price, kenan_charge_id, rttp_allocation, mod_id], 
+[clin, case_number, task_order_number, component_clin, component_case_number, component_access_phub, component_sre_pricing_element, component_clin_qty, start_date, stop_date, price, kenan_charge_id, mod_id], 
+[clin, case_number, task_order_number, region, network_site_code, offnet/onnet, country_jurs_id, component_access_phub, component_clin, component_case_number, component_sre_pricing_element, component_clin_qty, start_date, stop_date, Price, kenan_charge_mods, mod_id], 
+[clin, case_number, case_desc, task_order_number, unit_id, offnet or onnet, orig_network_site_code, term_network_site_code, orig_country_jurs_id, term_country_jurs_id, start_date, stop_date, kenan_charge_id, default_initial_ubi_state, mod_id], 
+[clin, case_number, task_order_number, region, network_site_code, country_jurs_id, component_access_phub, component_clin, component_case_number, component_sre_pricing_element, component_clin_qty, Price, start_date, stop_date, kenan_charge_id, mod_id], 
+[clin, case_number, task_order_number, region, network_site_code, country_jurs_id, component_access_phub, component_clin, component_case_number, component_sre_pricing_element, component_clin_qty, Price, start_date, stop_date, kenan_charge_id, rttp_allocation, mod_id], 
+[clin, case_number, task_order_number, region, network_site_code, country_jurs_id, component_access_phub, component_clin, component_case_number, component_sre_pricing_element, component_clin_qty, Price, start_date, stop_date, kenan_charge_id, rttp_allocation, mod_id, ], 
+[PK     ! ���̕  ], 
+[clin, case_number, task_order_number, component_clin, component_case_number, component_access_phub, component_sre_pricing_element, component_clin_qty, start_date, stop_date, Price, kenan_charge_id, mod_id], 
+[clin, case_number, task_order_number, region, network_site_code, country_jurs_id, component_access_phub, component_clin, component_case_number, component_sre_pricing_element, component_clin_qty, start_date, stop_date, Price, kenan_charge_id, mod_id], 
+[clin, case_number, task_order_number, region, network_site_code, country_jurs_id, component_access_phub, component_clin, component_case_number, component_sre_pricing_element, component_clin_qty, start_date, stop_date, Price, kenan_charge_id, rttp_allocation, mod_id], 
+[clin, case_number, case_desc, task_order_number, unit_id, orig_network_site_code, term_network_site_code, orig_country_jurs_id, term_country_jurs_id, start_date, stop_date, kenan_charge_id, default_initial_ubi_State, mod_id], 
+[clin, case_number, task_order_number, price, price_start_date, price_stop_date, CL02121], 
+[﻿clin, case_number, case_desc, task_order_number, unit_id, orig_network_site_code, term_network_site_code, orig_country_jurs_id, term_country_jurs_id, start_date, stop_date, kenan_charge_id, default_initial_ubi_state, mod_id]]
+
+NSEP
+[clin, task_order_number, price, price_start_date, price_stop_date, mod_id, 
+[clin, task_order_number, price, price_start_date, price_stop_date, mod_id], 
+[clin, task_order_number, price, price_start_date, price_stop_date, mo_id], 
+[clin, case_number, task_order_number, component_clin, component_case_number, component_access_phub, component_sre_pricing_element, component_clin_qty, start_date, stop_date, Price, kenan_charge_id, mod_id], 
+[clin, case_number, task_order_number, price, price_start_date, price_stop_date, mod_id], 
+[clin, task_order_number, orig_country_jurs_id, price, price_start_date, price_stop_date, mod_id], 
+[clin, task_order_number, country_jurs_id, price, price_start_date, price_stop_date, mod_id], 
+[clin, case_number, case_desc, task_order_number, unit_id, orig_network_site_code, term_network_site_code, orig_country_jurs_id, term_country_jurs_id, start_date, stop_date, kenan_charge_id, default_initial_ubi_state, mod_id]]
+
+VTS
+[clin, task_order_number, price, price_start_date, price_stop_date, mod_id, 
+[clin, case_number, task_order_number, country_jurs_id, price, price_start_date, price_stop_date, mod_id], 
+[clin, case_number, case_desc, task_order_number, unit_id, orig_network_site_code, term_network_site_code, orig_country_jurs_id, term_country_jurs_id, start_date, stop_date, kenan_charge_id, default_initial_ubi_state, tier_low, tier_high, rttp_group_id, primary_ubi, mod_id], 
+[clin, case_number, case_desc, task_order_number, unit_id, orig_network_site_code, term_network_site_code, orig_country_jurs_id, term_country_jurs_id, start_date, stop_date, kenan_charge_id, default_initial_ubi_state, mod_id], 
+[clin, case_number, task_order_number, price, price_start_date, price_stop_date, mod_id], 
+[clin, case_number, task_order_number, region, network_site_code, country_jurs_id, component_access_phub, component_clin, component_case_number, component_sre_pricing_element, component_clin_qty, start_date, stop_date, Price, kenan_charge_id, mod_id], 
+[clin, case_number, task_order_number, region, network_site_code, country_jurs_id, component_access_phub, component_clin, component_case_number, component_sre_pricing_element, component_clin_qty, start_date, stop_date, Price, kenan_charge_id, rttp_allocation, mod_id], 
+[clin, task_order_number, price, price_start_date, price_stop_date, mod_id]]
+
+CMSS
+[clin, clin_case_number, auto_sold_clin, auto_sold_clin_case_number, task_order_number, start_date, stop_date, mod_id, 
+[clin, clin_case_number, auto_sold_clin, auto_sold_clin_case_number, task_order_number, start_date, stop_date, mod_id], 
+[clin, task_order_number, price, price_start_date, price_stop_date, mod_id], 
+[clin, case_number, case_desc, task_order_number, unit_id, orig_network_site_code, term_network_site_code, orig_country_jurs_id, term_country_jurs_id, start_date, stop_date, kenan_charge_id, default_initial_ubi_state, mod_id], 
+[data_class_id, data_class_desc, task_order_number, prct_disc_off_listprice, start_date, stop_date, mod_id]]
+
+PLS
+[clin, case_number, task_order_number, mileage_band_low, mileage_band_high, price_fixed, price_per_mile, price_start_date, price_stop_date, mod_id, 
+[clin, case_number, task_order_number, orig_country_jurs_id, term_country_jurs_id, price, price_start_date, price_stop_date, mod_id], 
+[clin, case_number, case_desc, task_order_number, unit_id, orig_network_site_code, term_network_site_code, orig_country_jurs_id, term_country_jurs_id, start_date, stop_date, kenan_charge_id, default_initial_ubi_state, mod_id], 
+[clin, case_number, task_order_number, mileage_band_low, mileage_band_high, price_fixed, price_per_mile, price_start_date, price_stop_date, mod_id], 
+[clin, case_number, task_order_number, price, price_start_date, price_stop_date, mod_id], 
+[clin, case_number, case_desc, task_order_number, unit_id, orig_network_site_code, term_network_site_code, orig_country_jurs_id, term_country_jurs_id, start_date, stop_date, kenan_charge_id, default_initial_ubi_state, tier_low, tier_high, rttp_group_id, primary_ubi, mod_id], 
+[clin, case_number, case_desc, task_order_number, unit_id, offnet or onnet, orig_network_site_code, term_network_site_code, orig_country_jurs_id, term_country_jurs_id, start_date, stop_date, kenan_charge_id, default_initial_ubi_state, mod_id], 
+[clin, case_number, task_order_number, region, network_site_code, country_jurs_id, component_access_phub, component_clin, component_case_number, component_sre_pricing_element, component_clin_qty, start_date, stop_date, Price, kenan_charge_id, mod_id], 
+[clin, case_number, task_order_number, region, network_site_code, country_jurs_id, component_access_phub, component_clin, component_case_number, component_sre_pricing_element, component_clin_qty, start_date, stop_date, Price, kenan_charge_id, rttp_allocation, mod_id], 
+[clin, case_number, task_order_number, mileage_band_low, mileage_band_high, price_fixed, price_per_mile, price_start_date, price_stop_date, mod_Id], 
+[clin, case_number, task_order_number, country_jurs_id, orig_pop_id, term_pop_id, price, price_start_date, price_stop_date, mod_id], 
+[﻿clin, case_number, task_order_number, region, network_site_code, country_jurs_id, component_access_phub, component_clin, component_case_number, component_sre_pricing_element, component_clin_qty, start_date, stop_date, price, kenan_charge_id, mod_id], 
+[clin, case_number, task_order_number, region, network_site_code, country_jurs_id, component_access_phub, component_clin, component_case_number, component_sre_pricing_element, component_clin_qty, start_date, stop_date, price, kenan_charge_id, mod_id]]
+
+VPNS
+[﻿clin, case_number, task_order_number, country_jurs_id, price, price_start_date, price_stop_date, mod_id, 
+[clin, case_number, task_order_number, country_jurs_id, price, price_start_date, price_stop_date, mod_id], 
+[clin, case_number, case_desc, task_order_number, unit_id, orig_network_site_code, term_network_site_code, orig_country_jurs_id, term_country_jurs_id, start_date, stop_date, kenan_charge_id, default_initial_ubi_state, mod_id], 
+[clin, case_number, task_order_number, region, network_site_code, country_jurs_id, component_access_phub, component_clin, component_case_number, component_sre_pricing_element, component_clin_qty, start_date, stop_date, price, kenan_charge_id, mod_id], 
+[clin, case_number, task_order_number, price, price_start_date, price_stop_date, mod_id], 
+[clin, case_number, case_desc, task_order_number, unit_id, orig_network_site_code, term_network_site_code, orig_country_jurs_id, term_country_jurs_id, start_date, stop_date, kenan_charge_id, default_initial_ubi_state, mod_id, ], 
+[clin, case_number, case_desc, task_order_number, unit_id, orig_network_site_code, term_network_site_code, orig_country_jurs_id, term_country_jurs_id, start_date, stop_date, kenan_charge_id, default_initial_ubi_state, tier_low, tier_high, rttp_group_id, primary_ubi, mod_id], 
+[clin, case_number, task_order_number, region, network_site_code, country_jurs_id, component_access_phub, component_clin, component_case_number, component_sre_pricing_element, component_clin_qty, start_date, stop_date, price, kenan_charge_id, rttp_allocation, mod_id], 
+[clin, case_number, task_order_number, region, network_site_code, country_jurs_id, component_access_phub, component_clin, component_case_number, component_sre_pricing_element, component_clin_qty, start_date, stop_date, price, kenan_charge_id, mod_id, ], 
+[clin, case_number, task_order_number, region, network_site_code, country_jurs_id, component_access_phub, component_clin, component_case_number, component_sre_pricing_element, component_clin_qty, start_date, stop_date, price, kenan_charge_id, rttp_allocation, mod_id, ], 
+[clin, case_number, task_order_number, region, network_site_code, country_jurs_id, component_access_phub, component_clin, component_case_number, component_sre_pricing_element, component_clin_qty, start_date, stop_date, Price, kenan_charge_id, rttp_allocation, mod_id], 
+[﻿clin, case_number, task_order_number, region, network_site_code, country_jurs_id, component_access_phub, component_clin, component_case_number, component_sre_pricing_element, component_clin_qty, start_date, stop_date, Price, kenan_charge_id, mod_id], 
+[clin, case_number, task_order_number, region, network_site_code, country_jurs_id, component_access_phub, component_clin, component_case_number, component_sre_pricing_element, component_clin_qty, start_date, stop_date, Price, kenan_charge_Id, mod_id], 
+[clin, case_number, task_order_number, region, network_site_code, country_jurs_id, component_access_phub, component_clin, component_case_number, component_sre_pricing_element, component_clin_qty, start_date, stop_date, Price, kenan_charge_id, mod_id], 
+[clin, case_number, case_desc, task_order_number, unit_id, offnet or onnet, orig_network_site_code, term_network_site_code, orig_country_jurs_id, term_country_jurs_id, start_date, stop_date, kenan_charge_id, default_initial_ubi_state, mod_id], 
+[clin, case_number, task_order_number, region, network_site_code, country_jurs_id, component_access_phub, component_clin, component_case_number, component_sre_pricing_element, component_clin_qty, start_date, stop_date, Price, kenan_charge_id, rttp_allocation, mod_id, ], 
+[clin, case_number, task_order_number, region, network_site_code, country_jurs_id, component_access_phub, component_clin, component_case_number, component_sre_pricing_element, component_clin_qty, start_date, stop_date, Price, kenan_charge_id, mod_id, ], 
+[﻿clin, case_number, task_order_number, region, network_site_code, country_jurs_id, component_access_phub, component_clin, component_case_number, component_sre_pricing_element, component_clin_qty, start_date, stop_date, price, kenan_charge_id, mod_id], 
+[﻿clin, case_number, task_order_number, region, network_site_code, country_jurs_id, component_access_phub, component_clin, component_case_number, component_sre_pricing_element, component_clin_qty, start_date, stop_date, price, kenan_charge_id, rttp_allocation, mod_id], 
+[clin, case_number, task_order_number, region, network_site_code, country_jurs_id, component_access_phub, component_clin, component_case_number, component_sre_pricing_element, component_clin_qty, start_date, stop_date, kenan_charge_id, mod_id], 
+[clin, case_number, task_order_number, region, network_site_code, country_jurs_id, component_access_phub, component_clin, component_case_number, component_sre_pricing_element, component_clin_qty, start_date, stop_date, Price], 
+[clin, case_number, task_order_number, region, network_site_code, country_jurs_id, component_access_phub, component_clin, component_case_number, component_sre_pricing_element, component_clin_qty, start_date, stop_date, kenan_charge_id, rttp_allocation, mod_id], 
+[clin, case_number, task_order_number, region, network_site_code, country_jurs_id, component_access_phub, component_clin, component_case_number, component_sre_pricing_element, component_clin_qty, start_date, stop_date, price,  kenan_charge_id, mod_id]]
+
+CFSS
+[clin, clin_case_number, auto_sold_clin, auto_sold_clin_case_number, task_order_number, start_date, stop_date, mod_id, 
+[clin, task_order_number, price, price_start_date, price_stop_date, mod_id], 
+[clin, case_number, task_order_number, price, price_start_date, price_stop_date, mod_id], 
+[clin, case_number, case_desc, task_order_number, unit_id, orig_network_site_code, term_network_site_code, orig_country_jurs_id, term_country_jurs_id, start_date, stop_date, kenan_charge_id, default_initial_ubi_state, mod_id]]
+
+CSDS
+[clin, task_order_number, term_country_jurs_id, price, price_start_date, price_stop_date, mod_id, 
+[clin, task_order_number, orig_country_jurs_id, price, price_start_date, price_stop_date, mod_id], 
+[clin, task_order_number, orig_country_jurs_id, term_country_jurs_id, price, price_start_date, price_stop_date, mod_id], 
+[clin, task_order_number, price, price_start_date, price_stop_date, mod_id], 
+[clin, task_order_number, term_country_jurs_id, price, price_start_date, price_stop_date, mod_id], 
+[clin, case_number, case_desc, task_order_number, unit_id, offnet or onnet, orig_network_site_code, term_network_site_code, orig_country_jurs_id, term_country_jurs_id, start_date, stop_date, kenan_charge_id, default_initial_ubi_state, mod_id], 
+[clin, case_number, task_order_number, price, price_start_date, price_stop_date, mod_id], 
+[clin, case_number, case_desc, task_order_number, unit_id, orig_network_site_code, term_network_site_code, orig_country_jurs_id, term_country_jurs_id, start_date, stop_date, kenan_charge_id, default_initial_ubi_state, mod_id], 
+[clin, case_number, task_order_number, country_jurs_id, price, price_start_date, price_stop_date, mod_id]]
+
+TFS
+[clin, clin_case_number, auto_sold_clin, auto_sold_clin_case_number, task_order_number, start_date, stop_date, mod_id, 
+[clin, case_number, task_order_number, price, price_start_date, price_stop_date, mod_id], 
+[clin, task_order_number, orig_country_jurs_id, price, price_start_date, price_stop_date, mod_id], 
+[clin, case_number, case_desc, task_order_number, unit_id, orig_network_site_code, term_network_site_code, orig_country_jurs_id, term_country_jurs_id, start_date, stop_date, kenan_charge_id, default_initial_ubi_state, mod_id], 
+[clin, task_order_number, price, price_start_date, price_stop_date, mod_id], 
+[clin, case_number, case_desc, task_order_number, unit_id, offnet or onnet, orig_network_site_code, term_network_site_code, orig_country_jurs_id, term_country_jurs_id, start_date, stop_date, kenan_charge_id, default_initial_ubi_state, mod_id], 
+[clin, clin_case_number, autosold_clin, autosold_clin_case_number, task_order_number, start_date, stop_date, mod_id], 
+[﻿clin, task_order_number, price, price_start_date, price_stop_date, mod_id]]
+
+MTIPS
+[clin, case_number, task_order_number, country_jurs_id, price, price_start_date, price_stop_date, mod_id, 
+[clin, case_number, task_order_number, country_jurs_id, price, price_start_date, price_stop_date, mod_id], 
+[clin, case_number, case_desc, task_order_number, unit_id, orig_network_site_code, term_network_site_code, orig_country_jurs_id, term_country_jurs_id, start_date, stop_date, kenan_charge_id, default_initial_ubi_state, mod_id], 
+[clin, case_number, case_desc, task_order_number, unit_id, orig_network_site_code, term_network_site_code, orig_country_jurs_id, term_country_jurs_id, start_date, stop_date, kenan_charge_id, default_initial_ubi_state, mod_id, ], 
+[clin, case_number, task_order_number, price, price_start_date, price_stop_date, mod_id], 
+[clin, case_number, task_order_number, country_jurs_id, price, price_start_date, price_stop_date]]
+
+SaaS
+[clin, case_number, service_desc, vendor_unique_id, olp, no_list_price, service_class_id, start_date, stop_date, eos_date, eol_date, notes, mod_id, 
+[clin, case_number, case_desc, task_order_number, unit_id, orig_network_site_code, term_network_site_code, orig_country_jurs_id, term_country_jurs_id, start_date, stop_date, kenan_charge_id, default_initial_ubi_state, mod_id], 
+[clin, case_number, case_desc, task_order_number, unit_id, orig_network_site_code, term_network_site_code, orig_country_jurs_id, term_country_jurs_id, start_date, stop_date, kenan_charge_id, default_initial_ubi_state, tier_low, tier_high, rttp_group_id, primary_ubi, mod_id], 
+[clin, case_number, task_order_number, price, price_start_date, price_stop_date, mod_id], 
+[clin, case_number, task_order_number, region, network_site_code, offnet/onnet, country_jurs_id, component_access_phub, component_clin, component_case_number, component_sre_pricing_element, component_clin_qty, start_date, stop_date, Price, kenan_charge_id, rttp_allocation, mod_id], 
+[clin, case_number, task_order_number, region, network_site_code, offnet/onnet, country_jurs_id, component_access_phub, component_clin, component_case_number, component_sre_pricing_element, component_clin_qty, start_date, stop_date, Price, kenan_charge_id, mod_id], 
+[clin, case_number, service_desc, vendor_unique_id, olp, no_list_price, service_class_id, start_date, stop_date, eos_date, eol_date, notes, mod_id], 
+[clin, case_number, task_order_number, region, network_site_code, country_jurs_id, component_access_phub, component_clin, component_case_number, component_sre_pricing_element, component_clin_qty, start_date, stop_date, Price, kenan_charge_id, rttp_allocation, mod_id], 
+[clin, case_number, task_order_number, region, network_site_code, country_jurs_id, component_access_phub, component_clin, component_case_number, component_sre_pricing_element, component_clin_qty, start_date, stop_date, Price, kenan_charge_id, mod_id]]
+
+IaaS
+[clin, case_number, case_desc, task_order_number, unit_id, orig_network_site_code, term_network_site_code, orig_country_jurs_id, term_country_jurs_id, start_date, stop_date, kenan_charge_id, default_initial_ubi_state, mod_id, 
+[clin, case_number, task_order_number, price, price_start_date, price_stop_date, mod_id], 
+[clin, case_number, case_desc, task_order_number, unit_id, orig_network_site_code, term_network_site_code, orig_country_jurs_id, term_country_jurs_id, start_date, stop_date, kenan_charge_id, default_initial_ubi_state, mod_id], 
+[clin, case_number, case_desc, task_order_number, unit_id, orig_network_site_code, term_network_site_code, orig_country_jurs_id, term_country_jurs_id, start_date, stop_date, kenan_charge_id, default_initial_ubi_state, mod_id, ]]
+
+MWS
+[clin, clin_case_number, auto_sold_clin, auto_sold_clin_case_number, task_order_number, start_date, stop_date, mod_id, 
+[discount_class_id, discount_class_desc, task_order_number, prct_disc_off_listprice, price_start_date, price_stop_date, mod_id], 
+[clin, task_order_number, price, price_start_date, price_stop_date, mod_id], 
+[roaming_class_id, roaming_class_desc, task_order_number, prct_disc_off_listprice, price_start_date, price_stop_date, mod_id], 
+[clin, case_number, task_order_number, price, price_start_date, price_stop_date, mod_id], 
+[clin, case_number, case_desc, task_order_number, unit_id, orig_network_site_code, term_network_site_code, orig_country_jurs_id, term_country_jurs_id, start_date, stop_date, kenan_charge_id, default_initial_ubi_state, mod_id], 
+[clin, case_number, plan_desc, term_country_jurs_id, olp, olp_type, discount_class_id, price_start_date, price_stop_date, mod_id], 
+[clin, case_number, task_order_number, region, network_site_code, country_jurs_id, component_access_phub, component_clin, component_case_number, component_sre_pricing_element, component_clin_qty, start_date, stop_date, price, kenan_charge_id, mod_id, ], 
+[clin, case_number, task_order_number, region, network_site_code, country_jurs_id, component_access_phub, component_clin, component_case_number, component_sre_pricing_element, component_clin_qty, start_date, stop_date, price, kenan_charge_id, rttp_allocation, mod_id, ], 
+[clin, case_number, task_order_number, region, network_site_code, country_jurs_id, component_access_phub, component_clin, component_case_number, component_sre_pricing_element, component_clin_qty, start_date, stop_date, price, kenan_charge_id, mod_id], 
+[clin, case_number, task_order_number, region, network_site_code, country_jurs_id, component_access_phub, component_clin, component_case_number, component_sre_pricing_element, component_clin_qty, start_date, stop_date, price, kenan_charge_id, rttp_allocation, mod_id], 
+[clin, case_number, task_order_number, region, network_site_code, country_jurs_id, component_access_phub, component_clin, component_case_number, component_sre_pricing_element, component_clin_qty, start_date, stop_date, Price, kenan_charge_id, mod_id], 
+[clin, case_number, task_order_number, region, network_site_code, country_jurs_id, component_access_phub, component_clin, component_case_number, component_sre_pricing_element, component_clin_qty, start_date, stop_date, Price, kenan_charge_id, rttp_allocation, mod_id, ], 
+[clin, case_number, task_order_number, region, network_site_code, country_jurs_id, component_access_phub, component_clin, component_case_number, component_sre_pricing_element, component_clin_qty, start_date, stop_date, Price, kenan_charge_id, mod_id, ], 
+[clin, case_number, task_order_number, region, network_site_code, country_jurs_id, component_access_phub, component_clin, component_case_number, component_sre_pricing_element, component_clin_qty, start_date, stop_date, Price, kenan_charge_id, rttp_allocation, mod_id], 
+[clin, task_order_number, price, price_start_date, price_stop_date], 
+[﻿clin, case_number, task_order_number, region, network_site_code, country_jurs_id, component_access_phub, component_clin, component_case_number, component_sre_pricing_element, component_clin_qty, start_date, stop_date, price, kenan_charge_id, mod_id], 
+[﻿clin, case_number, task_order_number, region, network_site_code, country_jurs_id, component_access_phub, component_clin, component_case_number, component_sre_pricing_element, component_clin_qty, start_date, stop_date, price, kenan_charge_id, rttp_allocation, mod_id], 
+[clin, clin_case_number, autosold_clin, autosold_clin_case_number, task_order_number, start_date, stop_date, mod_id]]
+
+SDWANS
+[clin, case_number, case_desc, task_order_number, unit_id, orig_network_site_code, term_network_site_code, orig_country_jurs_id, term_country_jurs_id, start_date, stop_date, kenan_charge_id, default_initial_ubi_state, tier_low, tier_high, rttp_group_id, primary_ubi, mod_id, 
+[clin, case_number, case_desc, task_order_number, unit_id, orig_network_site_code, term_network_site_code, orig_country_jurs_id, term_country_jurs_id, start_date, stop_date, kenan_charge_id, default_initial_ubi_state, mod_id], 
+[clin, case_number, task_order_number, price, price_start_date, price_stop_date, mod_id], 
+[clin, case_number, task_order_number, region, network_site_code, country_jurs_id, component_access_phub, component_clin, component_case_number, component_sre_pricing_element, component_clin_qty, start_date, stop_date, Price, kenan_charge_id, mod_id], 
+[clin, case_number, task_order_number, region, network_site_code, country_jurs_id, component_access_phub, component_clin, component_case_number, component_sre_pricing_element, component_clin_qty, start_date, stop_date, Price, kenan_charge_id, rttp_allocation, mod_id], 
+[clin, case_number, case_desc, task_order_number, unit_id, orig_network_site_code, term_network_site_code, orig_country_jurs_id, term_country_jurs_id, start_date, stop_date, kenan_charge_id, default_initial_ubi_state, tier_low, tier_high, rttp_group_id, primary_ubi, mod_id], 
+[clin, case_number, task_order_number, region, network_site_code, country_jurs_id, component_access_phub, component_clin, component_case_number, component_sre_pricing_element, component_clin_qty, start_date, stop_date, price, kenan_charge_id, mod_id], 
+[clin, case_number, task_order_number, region, network_site_code, country_jurs_id, component_access_phub, component_clin, component_case_number, component_sre_pricing_element, component_clin_qty, start_date, stop_date, price, kenan_charge_id, rttp_allocation, mod_id]]
+
+OWS
+[clin, case_number, task_order_number, mileage_band_low, mileage_band_high, price_fixed, price_start_date, price_stop_date, mod_id, 
+[clin, case_number, task_order_number, price, price_start_date, price_stop_date, mod_id], 
+[clin, case_number, case_desc, task_order_number, unit_id, orig_network_site_code, term_network_site_code, orig_country_jurs_id, term_country_jurs_id, start_date, stop_date, kenan_charge_id, default_initial_ubi_state, mod_id], 
+[PK     ! ǌ  �   [Content_Types].xml �(�                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 ��MO�0��H��*W�fBh>��HC���؃���!46`�ҨM��O�8�/�-^ �	���/], 
+[PK     ! �A�ܜ     �[Content_Types].xml ��(�                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           ���N�0��H�C�+j!��r`9 q5��M�)�o���҅Vb%��g{fһ���C@�l���.���N*;, ���]�eH�J����M�U���<��Ym�`����], 
+[clin, case_number, task_order_number, mileage_band_low, mileage_band_high, price_fixed, price_start_date, price_stop_date, mod_id], 
+[clin, case_number, case_desc, task_order_number, unit_id, offnet or onnet, orig_network_site_code, term_network_site_code, orig_country_jurs_id, term_country_jurs_id, start_date, stop_date, kenan_charge_id, default_initial_ubi_state, mod_id], 
+[clin, case_number, task_order_number, orig_country_jurs_id, term_country_jurs_id, mileage_band_low, mileage_band_high, price_fixed, variable_price_per_mile, price_start_date, price_stop_date, mod_id], 
+[clin, case_number, task_order_number, component_clin, component_case_number, component_access_phub, component_sre_pricing_element, component_clin_qty, start_date, stop_date, Price, kenan_charge_id, mod_id], 
+[﻿clin, case_number, case_desc, task_order_number, unit_id, orig_network_site_code, term_network_site_code, orig_country_jurs_id, term_country_jurs_id, start_date, stop_date, kenan_charge_id, default_initial_ubi_state, mod_id], 
+[﻿clin, case_number, task_order_number, mileage_band_low, mileage_band_high, price_fixed, price_start_date, price_stop_date, mod_id], 
+[﻿clin, case_number, task_order_number, price, price_start_date, price_stop_date, mod_id]]
+
+MSS
+[clin, case_number, case_desc, task_order_number, unit_id, orig_network_site_code, term_network_site_code, orig_country_jurs_id, term_country_jurs_id, start_date, stop_date, kenan_charge_id, default_initial_ubi_state, mod_id, 
+[clin, case_number, case_desc, task_order_number, unit_id, orig_network_site_code, term_network_site_code, orig_country_jurs_id, term_country_jurs_id, start_date, stop_date, kenan_charge_id, default_initial_ubi_state, mod_id], 
+[clin, case_number, category, service_desc, olp, no_list_price, service_class_id, start_date, stop_date, eos_date, eol_date, notes, mod_id], 
+[service_class_id, service_class_desc, task_order_number, prct_disc_off_listprice, start_date, stop_date, mod_id], 
+[clin, clin_case_number, autosold_clin, autosold_clin_case_number, task_order_number, start_date, stop_date, mod_id], 
+[clin, case_number, task_order_number, price, price_start_date, price_stop_date, mod_id], 
+[clin, case_number, case_desc, task_order_number, unit_id, orig_network_site_code, term_network_site_code, orig_country_jurs_id, term_country_jurs_id, start_date, stop_date, kenan_charge_id, default_initial_ubi_state, tier_low, tier_high, rttp_group_id, primary_ubi, mod_id], 
+[clin, case_number, task_order_number, region, network_site_code, offnet/onnet, country_jurs_id, component_access_phub, component_clin, component_case_number, component_sre_pricing_element, component_clin_qty, start_date, stop_date, Price, kenan_charge_mods, mod_id], 
+[clin, case_number, task_order_number, region, network_site_code, country_jurs_id, component_access_phub, component_clin, component_case_number, component_sre_pricing_element, component_clin_qty, start_date, stop_date, Price, kenan_charge_id, mod_id], 
+[﻿clin, case_number, task_order_number, region, network_site_code, country_jurs_id, component_access_phub, component_clin, component_case_number, component_sre_pricing_element, component_clin_qty, start_date, stop_date, price, kenan_charge_id, mod_id]]
+
+ACS
+[clin, task_order_number, country_jurs_id, price, price_start_date, price_stop_date, mod_id, 
+[clin, task_order_number, country_jurs_id, price, price_start_date, price_stop_date, mod_id], 
+[clin, case_number, task_order_number, price, price_start_date, price_stop_date, mod_id], 
+[clin, task_order_number, price, price_start_date, price_stop_date, mod_id], 
+[clin, case_number, case_desc, task_order_number, unit_id, orig_network_site_code, term_network_site_code, orig_country_jurs_id, term_country_jurs_id, start_date, stop_date, kenan_charge_id, default_initial_ubi_state, mod_id], 
+[clin, case_number, case_desc, task_order_number, unit_id, orig_network_site_code, term_network_site_code, orig_country_jurs_id, term_country_jurs_id, start_date, stop_date, kenan_charge_id, default_initial_ubi_state, tier_low, tier_high, rttp_group_id, primary_ubi, mod_id], 
+[clin, case_number, case_desc, task_order_number, unit_id, offnet or onnet, orig_network_site_code, term_network_site_code, orig_country_jurs_id, term_country_jurs_id, start_date, stop_date, kenan_charge_id, default_initial_ubi_state, mod_id], 
+[clin, clin_case_number, autosold_clin, autosold_clin_case_number, task_order_number, start_date, stop_date, mod_id], 
+[clin, case_number, task_order_number, region, network_site_code, country_jurs_id, component_access_phub, component_clin, component_case_number, component_sre_pricing_element, component_clin_qty, start_date, stop_date, Price, kenan_charge_id, mod_id], 
+[clin, case_number, task_order_number, region, network_site_code, country_jurs_id, component_access_phub, component_clin, component_case_number, component_sre_pricing_element, component_clin_qty, start_date, stop_date, Price, kenan_charge_id, rttp_allocation, mod_id], 
+[clin, case_number, task_order_number, price, price_start_date, price_stop_date, mod_Id]]
+
+CCS
+[clin, clin_case_number, auto_sold_clin, auto_sold_clin_case_number, task_order_number, start_date, stop_date, mod_id, 
+[clin, task_order_number, band_low, band_high, price, price_start_date, price_stop_date, mod_id], 
+[clin, case_number, task_order_number, price, price_start_date, price_stop_date, mod_id], 
+[clin, case_number, case_desc, task_order_number, unit_id, orig_network_site_code, term_network_site_code, orig_country_jurs_id, term_country_jurs_id, start_date, stop_date, kenan_charge_id, default_initial_ubi_state, mod_id], 
+[clin, case_number, task_order_number, price, price_start_date, price_stop_date, mod_Id], 
+[clin, clin_case_number, autosold_clin, autosold_clin_case_number, task_order_number, start_date, stop_date, mod_id]]
+
+CSVS
+[clin, task_order_number, term_country_jurs_id, price, price_start_date, price_stop_date, mod_id, 
+[clin, case_number, task_order_number, price, price_start_date, price_stop_date, mod_id], 
+[clin, task_order_number, price, price_start_date, price_stop_date, mod_id], 
+[clin, task_order_number, term_country_jurs_id, price, price_start_date, price_stop_date, mod_id], 
+[clin, task_order_number, orig_country_jurs_id, price, price_start_date, price_stop_date, mod_id], 
+[clin, task_order_number, country_jurs_id, price, price_start_date, price_stop_date, mod_id], 
+[clin, clin_case_number, auto_sold_clin, auto_sold_clin_case_number, task_order_number, start_date, stop_date, mod_id], 
+[clin, task_order_number, orig_country_jurs_id, term_country_jurs_id, price, price_start_date, price_stop_date, mod_id], 
+[clin, case_number, case_desc, task_order_number, unit_id, orig_network_site_code, term_network_site_code, orig_country_jurs_id, term_country_jurs_id, start_date, stop_date, kenan_charge_id, default_initial_ubi_state, mod_id], 
+[clin, task_order_number, orig_country_jurs_id, price, price_start_date, price_stop_date], 
+[clin, case_number, task_order_number, price, price_start_date, price_stop_date], 
+[clin, case_number, case_desc, task_order_number, unit_id, orig_network_site_code, term_network_site_code, orig_country_jurs_id, term_country_jurs_id, start_date, stop_date, kenan_charge_id, default_initial_ubi_state, tier_low, tier_high, rttp_group_id, primary_ubi, mod_id], 
+[clin, case_number, case_desc, task_order_number, unit_id, offnet or onnet, orig_network_site_code, term_network_site_code, orig_country_jurs_id, term_country_jurs_id, start_date, stop_date, kenan_charge_id, default_initial_ubi_state, mod_id], 
+[clin, case_number, task_order_number, region, network_site_code, country_jurs_id, component_access_phub, component_clin, component_case_number, component_sre_pricing_element, component_clin_qty, start_date, stop_date, Price, kenan_charge_id, mod_id], 
+[clin, case_number, task_order_number, region, network_site_code, country_jurs_id, component_access_phub, component_clin, component_case_number, component_sre_pricing_element, component_clin_qty, start_date, stop_date, Price, kenan_charge_id, rttp_allocation, mod_id], 
+[﻿clin, case_number, task_order_number, region, network_site_code, country_jurs_id, component_access_phub, component_clin, component_case_number, component_sre_pricing_element, component_clin_qty, start_date, stop_date, Price, kenan_charge_id, mod_id], 
+[﻿clin, case_number, task_order_number, region, network_site_code, country_jurs_id, component_access_phub, component_clin, component_case_number, component_sre_pricing_element, component_clin_qty, start_date, stop_date, Price, kenan_charge_id, rttp_allocation, mod_id], 
+[clin, case_number, task_order_number, price, price_start_date, price_stop_date, mod_Id ], 
+[clin, clin_case_number, autosold_clin, autosold_clin_case_number, task_order_number, start_date, stop_date, mod_id], 
+[﻿clin, case_number, task_order_number, region, network_site_code, country_jurs_id, component_access_phub, component_clin, component_case_number, component_sre_pricing_element, component_clin_qty, start_date, stop_date, price, kenan_charge_id, mod_id], 
+[clin, task_order_number, orig_country_jurs_id, price, price_start_date, price_stop_date, mod_id, ]]
+
+MMS
+[clin, task_order_number, price, price_start_date, price_stop_date, mod_id, 
+[clin, task_order_number, price, price_start_date, price_stop_date, mod_id]]
+
+CW
+[clin, case_number, task_order_number, country_jurs_id, price, price_start_date, price_stop_date, mod_id, 
+[clin, case_number, task_order_number, country_jurs_id, price, price_start_date, price_stop_date, mod_id], 
+[clin, case_number, case_desc, task_order_number, unit_id, orig_network_site_code, term_network_site_code, orig_country_jurs_id, term_country_jurs_id, start_date, stop_date, kenan_charge_id, default_initial_ubi_state, mod_id], 
+[clin, case_number, task_order_number, region, network_site_code, country_jurs_id, component_access_phub, component_clin, component_case_number, component_sre_pricing_element, component_clin_qty, start_date, stop_date, price, kenan_charge_id, mod_id, ], 
+[clin, case_number, case_desc, task_order_number, unit_id, orig_network_site_code, term_network_site_code, orig_country_jurs_id, term_country_jurs_id, start_date, stop_date, kenan_charge_id, default_initial_ubi_state, mod_id, ], 
+[clin, case_number, task_order_number, region, network_site_code, offnet/onnet, country_jurs_id, component_access_phub, component_clin, component_case_number, component_sre_pricing_element, component_clin_qty, start_date, stop_date, Price, kenan_charge_mods, mod_id], 
+[clin, case_number, case_desc, task_order_number, unit_id, offnet or onnet, orig_network_site_code, term_network_site_code, orig_country_jurs_id, term_country_jurs_id, start_date, stop_date, kenan_charge_id, default_initial_ubi_state, mod_id], 
+[clin, case_number, task_order_number, component_clin, component_case_number, component_access_phub, component_sre_pricing_element, component_clin_qty, start_date, stop_date, Price, kenan_charge_id, mod_id], 
+[clin, case_number, task_order_number, price, price_start_date, price_stop_date, mod_id]]
+
+CDNS
+[clin, task_order_number, band_low, band_high, price_fixed, unit_price_per_gig, price_start_date, price_stop_date, mod_id]
+
+General
+[clin, case_number, case_desc, task_order_number, unit_id, orig_network_site_code, term_network_site_code, orig_country_jurs_id, term_country_jurs_id, start_date, stop_date, kenan_charge_id, default_initial_ubi_state, mod_id, 
+[clin, case_number, task_order_number, price, price_start_date, price_stop_date, mod_id], 
+[clin, case_number, case_desc, task_order_number, unit_id, orig_network_site_code, term_network_site_code, orig_country_jurs_id, term_country_jurs_id, start_date, stop_date, kenan_charge_id, default_initial_ubi_state, mod_id], 
+[clin, case_number, case_desc, task_order_number, unit_id, orig_network_site_code, term_network_site_code, orig_country_jurs_id, term_country_jurs_id, start_date, stop_date, kenan_charge_id, default_initial_ubi_state, tier_low, tier_high, rttp_group_id, primary_ubi, mod_id], 
+[clin, case_number, task_order_number, region, network_site_code, country_jurs_id, component_access_phub, component_clin, component_case_number, component_sre_pricing_element, component_clin_qty, start_date, stop_date, price, kenan_charge_id, mod_id, ], 
+[clin, case_number, task_order_number, region, network_site_code, country_jurs_id, component_access_phub, component_clin, component_case_number, component_sre_pricing_element, component_clin_qty, start_date, stop_date, price, kenan_charge_id, mod_id], 
+[clin, case_number, case_desc, task_order_number, unit_id, orig_network_site_code, term_network_site_code, orig_country_jurs_id, term_country_jurs_id, start_date, stop_date, kenan_charge_id, default_initial_ubi_state, mod_id, ], 
+[clin, case_number, task_order_number, region, network_site_code, country_jurs_id, component_access_phub, component_clin, component_case_number, component_sre_pricing_element, component_clin_qty, start_date, stop_date, Price, kenan_charge_id, mod_id, ], 
+[clin, case_number, task_order_number, region, network_site_code, country_jurs_id, component_access_phub, component_clin, component_case_number, component_sre_pricing_element, component_clin_qty, start_date, stop_date, Price, kenan_charge_id, mod_id], 
+[﻿clin, case_number, task_order_number, region, network_site_code, country_jurs_id, component_access_phub, component_clin, component_case_number, component_sre_pricing_element, component_clin_qty, start_date, stop_date, price, kenan_charge_id, mod_id], 
+[clin, case_number, task_order_number, region, network_site_code, country_jurs_id, component_access_phub, component_clin, component_case_number, component_sre_pricing_element, component_clin_qty, start_date, stop_date, price,  kenan_charge_id, mod_id], 
+[﻿clin, case_number, task_order_number, region, network_site_code, country_jurs_id, component_access_phub, component_clin, component_case_number, component_sre_pricing_element, component_clin_qty, start_date, stop_date, price, kenan_charge_id, rttp_allocation, mod_id], 
+[clin, case_number, task_order_number, price, price_start_date, price_stop_date, mod_Id], 
+[clin, case_number, task_order_number, component_clin, component_case_number, component_access_phub, component_sre_pricing_element, component_clin_qty, start_date, stop_date, Price, kenan_charge_id, mod_id]]
+
